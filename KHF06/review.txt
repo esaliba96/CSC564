@@ -1,0 +1,21 @@
+﻿Reviewer's Name: 
+Elie Saliba
+
+
+Paper Title: 
+Designing DCCP: Congestion Control Without Reliability
+
+
+Provide a short summary of the paper (2-4 sentences):
+This paper discusses the design of a transport protocol that implements congestion control without the reliability found in most protocols such as TCP. The authors talk about the reasons they think this new protocol would be useful as well as which applications would benefit from it. The specifications of this protocols are well defined and the results show that this protocol could be a potential solution for real world problems.
+ 
+What are the strengths of the paper? (2-4 sentences):
+The authors did a great job giving a detailed background about the different protocols that implement congestion control to conclude why their design is useful. The goals are presented clearly therefore give the reader a general idea about the expectations of this protocol. The authors did a good job explaining the different aspects of the protocol with their importance and usefulness.
+
+
+What are the weaknesses of the paper? (2-4 sentences):
+Experimental data is lacking in this paper. The authors mentioned the formal modeling results to prove that their protocol works but it would have been nice to see live data from actual implementation of the protocol. Also the paper’s main purpose is the flexibility of congestion control which was discussed briefly compared to the overall structure of the paper.
+
+
+Provide detailed comments (expand on strengths/weaknesses):
+This paper presents a potential solution to congestion control using an unreliable protocol. The authors detailed the design and implementation of this protocol as well as the difficulties faced along the way. The paper is well-organized and detailed. However, the main focus of the paper shifts from its title since most of it did not focus on congestion control methods. The paper also lacks experimental data which could prove the usefulness and practicality of this protocol. The diagrams used help the reader understand the different specs of this protocol. Overall the paper is good and has significant value since this protocol is used in different applications nowadays. The structure of the paper flows well as the authors explained the motives, then goals, specs, implementation, and validation of the protocol.
