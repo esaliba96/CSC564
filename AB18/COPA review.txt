@@ -1,0 +1,22 @@
+﻿Reviewer's Name: 
+Elie Saliba
+
+
+Paper Title: 
+Copa: Practical Delay-Based Congestion Control for the Internet
+
+
+Provide a short summary of the paper (2-4 sentences):
+This paper discusses the implementation of a practical delay-based congestion control algorithm. The algorithm aims to provide congestion control with low queuing delay and high throughput. The main idea is to have a target rate that the application will aim to convert to by increasing or decreasing the congestion window based on the relation between current rate and target rate.
+
+
+What are the strengths of the paper? (2-4 sentences):
+The authors did a great job presenting the algorithm goals, specs, and implementation. The validation section is very valuable since it puts the algorithm in test under different circumstances dealing with real life problems as well as theoretical behaviors. The paper is well-organized and flows in a logical manner. 
+
+
+What are the weaknesses of the paper? (2-4 sentences):
+The weakness of this paper is providing the proof to the target rate they came up with. I think that this was not necessary since most readers will not have good knowledge of the mathematical properties that were being discussed. A pseudocode of the actual algorithm would have been more helpful and easier to understand.
+
+
+Provide detailed comments (expand on strengths/weaknesses):
+Overall, this paper tackles an important issue in internet protocols. The solution provided is proven to have major performance improvements over most congestion control algorithms. The author explained their reasoning behind their implementation very clearly but the proof support was overwhelming. The validation process is detailed and covers a wide variety of scenarios which proves its usefulness. The different graphs are descriptive providing great support to the results discussed. This paper is interesting and easy to read. The flow of the sections helps the reader understand the problem while enjoying themselves by learning about this groundbreaking congestion control algorithm
