@@ -1,0 +1,22 @@
+﻿Reviewer's Name: 
+Elie Saliba
+
+
+Paper Title: 
+Congestion Control for High Bandwidth-Delay Product Networks
+
+
+Provide a short summary of the paper (2-4 sentences):
+This paper discusses the implementation of XCP, a protocol that improves on TCP’s congestion control. The main idea of this protocol is decoupling fairness control from utilization control. The protocol also differentiates between error losses from congestion losses which makes it useful for wireless environments. XCP also facilitates the detection of misbehaving sources as well as tries to eliminate packets drops. The performance of XCP is an incentive for end user and network providers to deploy the protocol.
+
+
+What are the strengths of the paper? (2-4 sentences):
+The authors did a great job presenting the algorithm goals, specs, and implementation. The validation section is very valuable since it puts the algorithm in test under different circumstances dealing with different topologies and simulations setup. The results not only compared XCP performance to TCP but with different AQM schemes. The authors also discussed the security aspects of XCP, scalability, deployment, and possibility of coexisting with TCP.
+
+
+What are the weaknesses of the paper? (2-4 sentences):
+The weakness of this paper as well as the research overall is the need of a special XCP router to provide the performance improvements discussed in this paper. The authors also put out different equations without fully supporting them and explaining how they came around them. Another weakness is that the paper did not give a general idea of the protocol architecture, it would be nice to see a XCP full header rather than only the congestion header.
+
+
+Provide detailed comments (expand on strengths/weaknesses):
+Overall, this paper tackles an important issue in internet protocols. The solution provided is proven to have major performance improvements over most congestion control algorithms. The author explained their reasoning behind their implementation specifically how decoupling is useful. The validation process is detailed and proves the improvement in performance that XCP has over TCP. The only problem with this implementation is the need of having specific hardware to use XCP. Although XCP is TCP friendly, it is still a hassle to have to buy XCP specific hardware to use the protocol which could be a big holdback in deployment. This paper is interesting and easy to read. The flow of the sections helps the reader understand the problem while enjoying themselves by learning about this interesting protocol.
