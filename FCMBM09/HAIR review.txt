@@ -1,0 +1,22 @@
+﻿Reviewer's Name: 
+Elie Saliba
+
+
+Paper Title: 
+HAIR: Hierarchical Architecture for Internet Routing
+
+
+Provide a short summary of the paper (2-4 sentences):
+The papers talks about HAIR a routing architecture that tackles the problem of routing table growth, restricts the visibility of routing updates, and supports traffic engineering, mobility, and multipath. The main idea behind this approach is separating locators from identifiers. This is done using a hybrid edge-based approach where some lightweight functionality is done within the network whereas most of the work is done at end-hosts. The architecture was analyzed to the extent of it being implemented as well as a proof-of-concept evaluation was presented.
+
+
+What are the strengths of the paper? (2-4 sentences):
+The authors explained the architecture in an explicit manner that facilitates the reader to understand the concepts. The separation of locator and identifier is presented to show it would benefit routing protocols. The authors explain the packet delivery process and the mapping system between the different levels of HAIR. The dynamics of HAIR were also detailed under different subsections to easily convey the importance of each. The evaluation part shoes the improvements that a HAIR architecture has over LISP and other routing architectures.
+
+
+What are the weaknesses of the paper? (2-4 sentences):
+The weaknesses of this paper is that the proof-of-concept part was not very clear. The graph shown is not very self explanatory and even after reading the section attached to it, it was still unclear what the authors were looking at. The authors also suggest the need of changes to be done to devices but this was not fully explained. The observed latencies according to them were caused by generating HAIR packets at the end host but the authors did not explain how this problem could be solved or avoided.
+
+
+Provide detailed comments (expand on strengths/weaknesses):
+Overall, this paper tackles an important aspect of internet routing architecture. The solution provided is proven to have some performance improvements over the current routing architectures. The author explained their reasoning behind their implementation specifically how the hybrid aspect of HAIR can achieve the goals needed. The separation between locators and identifiers also helped clarify the specifics of HAIR. The validation process is simple enough to show the considerable reduction in updates rates if HAIR were deployed in today’s Internet. The only problem with this implementation is the weak proof-of-concept section. The authors did not clearly explain the results. Overall, the paper is interesting and easy to read. The flow of the sections helps the reader understand the problem while enjoying themselves by learning about this interesting protocol.

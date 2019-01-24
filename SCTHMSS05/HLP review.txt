@@ -1,0 +1,22 @@
+﻿Reviewer's Name: 
+Elie Saliba
+
+
+Paper Title: 
+HLP: A Next Generation Inter-domain Routing Protocol
+
+
+Provide a short summary of the paper (2-4 sentences):
+The papers talks about HLP, a hybrid inter-domain routing protocol. The protocol uses link-state and path-vector as an alternative to BGP. The authors discuss the main problems of BGP and how their approach is a good solution for these problems. The results show that HLP has better scalability, isolation and convergence properties. The author also include a prototype implementation of the protocol but suggest that HLP is not a finished a final proposal for replacing BGP but a starting point for the next-generation inter-domain routing protocol.
+
+
+What are the strengths of the paper? (2-4 sentences):
+The authors did a great job explaining the weaknesses of BGP to demonstrate how HLP will solve such problems. After listing the problems, the paper presents the design issues of BGP and how they are addressed in this new protocol. The routing model was clearly described with pictures that help the reader understand the concepts behind this protocol. The interesting part is mentioning exceptions that could occur with how HLP would handle such cases. The protocol was well analyzed and tested to show its improvement in performance over BGP.
+
+
+What are the weaknesses of the paper? (2-4 sentences):
+The weaknesses of this paper is that it only provided one small section about the full-deployment needs of this protocol. The author discussed the ease of such implementation since the code of HLP is 90% from BGP but did not explain why that is the case. Also the authors had mentioned that this is a starting point for a full-deployment so why is it so easy to implement but at the same time difficult to fully deploy.
+
+
+Provide detailed comments (expand on strengths/weaknesses):
+Overall, this paper tackles an important aspect of inter-routing protocols. The solution provided is proven to have major performance improvements over the current routing protocol BGP. The author explained their reasoning behind their implementation specifically how issues in the design of BGP are fixed in HLP. The validation process is detailed and proves the improvement in performance that HLP has over BGP. The only problem with this implementation is the full-deployment reasoning was not very clear. The author mention the ease of moving from BGP to HLP but did not discuss why it is difficult to fully deploy it. Overall, the paper is interesting and easy to read. The flow of the sections helps the reader understand the problem while enjoying themselves by learning about this interesting protocol.
