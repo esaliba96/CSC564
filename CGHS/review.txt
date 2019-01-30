@@ -1,0 +1,21 @@
+﻿Reviewer's Name: 
+Elie Saliba
+
+
+Paper Title: 
+Jumpstarting BGP Security with Path-End Validation
+
+
+Provide a short summary of the paper (2-4 sentences):
+The paper talks about a solution to BGP’s interdomain routing security that is an extension to the existent RPKI solution. The extension called path-end validation focuses on attempting to ensure that the last AS hop on the advertised BGP path is valid. The main perk of this solution is that it does not require any modification to current BGP routing infrastructure and that it provides significant security benefits with partial deployment. The authors present this solution as opposing solution to BGPsec which is being considered for full deployment.
+ 
+What are the strengths of the paper? (2-4 sentences):
+The authors did a great job in explaining the key feature of their solution and how it works with RPKI. They also presented the two main constraints considered when doing such development. A brief section talked about the design of path-end validation with a visual that explains how this works. The different studies that were done to evaluate this solution were extensive and covered different situations, topologies, and even geographic ISPs. The detailed evaluation in this case is important to prove the benefits of deploying path-end validation.
+
+
+What are the weaknesses of the paper? (2-4 sentences):
+The weaknesses of this paper is that it only provided one small section about the design and deployment of this solution. The design section is very brief and does not cover the detailed aspects of it. The authors mention that the code is open source and could be used for partial deployment but it would be nice to see some snippets of it or at least some pseudocode explaining the approach used. The prototype section could also use some screenshots of how the calls would be used in the actual system.
+
+
+Provide detailed comments (expand on strengths/weaknesses):
+Overall, this paper tackles an important aspect of interdomain routing security. The solution provided is proven to have major performance improvements over the current security library used in RPKI and BGPsec. The authors explained their reasoning behind their implementation specifically the two main constraint of such design. The validation process is detailed and proves the improvement in performance that path-end validation has over BGPsec. The most advantageous part of this extension is that even in partial deployment it could have significant security performance. Overall, the paper is interesting and easy to read. The flow of the sections helps the reader understand the problem while enjoying themselves by learning about this extension for interdomain routing security.

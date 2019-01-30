@@ -1,0 +1,20 @@
+﻿Reviewer's Name: 
+Elie Saliba
+
+
+Paper Title: 
+Bootstrapping evolvability for inter-domain routing with D-BGP
+
+
+Provide a short summary of the paper (2-4 sentences):
+This paper discusses a solution the rigidity of BGP called Darwin’s BGP. The authors claim that the current version of BGP is rigid and does not allow for innovation. Therefore they study different scenarios to come up with a list of requirements that their new interdomain routing protocol needs to have. They classify their research into three categories: critical fix, custom protocol, and replacement protocol. They study each case to come up with the set of requirements that D-BGP implements. D-BGP is also tested as proof-of concept to check its validity.
+ 
+What are the strengths of the paper? (2-4 sentences):
+The authors did a great job detailing the three protocols groups according to the evolvability scenarios most suited to them in order to understand the requirements that need to be implemented. The authors explain for each of these groups the data-plane support, give an example of the scenario, talk about the incentives of deployment, and conclude with the requirements for it to happen. The design of D-BGP encompases all these requirements which makes it easily evolvable. The paper presents a prototype as well as examples of use and evaluation to support the usefulness of D-BGP.
+ 
+What are the weaknesses of the paper? (2-4 sentences):
+The authors did not do a great job explaining the IAs. Multiple tables were shown to present different kinds of IAs that will be generated using D-BGP but those tables were rather confusing than useful. Also the pictures that show path advertisement were almost misleading in the way the arrows point since they have it going from destination to source which does not make sense. The two mains table that show characteristic of D-BGP deployment were also not very helpful as it is difficult to understand what all the data in them means.
+
+
+Provide detailed comments (expand on strengths/weaknesses):
+Overall, this paper tackles an important aspect of interdomain routing evolvability. The solution provided as modification of BGP is proven to have major evolution to a wide range of critical fixes to BGP, sophisticated BGP replacements, and protocols that run in parallel with BGP to provide functionality that BGP does not have. The authors explained their reasoning behind their implementation specifically the three different protocol groups that entailed the needed requirements for D-BGP. The validation process is minimal but proves the evolvability that D-BGP provides. The supporting data and figures are confusing and overwhelming which is definitely an area of improvement. Overall, the paper is interesting and somewhat easy to read. The flow of the sections helps the reader understand the problem while enjoying themselves by learning about evolvability of inter-domain routing.
