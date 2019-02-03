@@ -1,0 +1,22 @@
+﻿Reviewer's Name: 
+Elie Saliba
+
+
+Paper Title: 
+Inferring Persistent Interdomain Congestion
+
+
+Provide a short summary of the paper (2-4 sentences):
+This paper talks about Time Series Latency Probes (TSLP) as a mean of inferring links with evidence of recurring congestion suggestive of an under-provisioned link. This method was used to study the behavior of multiple interdomain links using loss rates correlation, youtube performance, NDT throughput, and different operators feedback. All these different sources were examined to prove the validity of the conclusions that their system comes up with in relation to the congested interdomain links. The authors also discuss the limitations of their system and the future work that could improve upon it.
+
+
+What are the strengths of the paper? (2-4 sentences):
+The authors did a great job giving a brief introduction of the importance of probing congestion and being able to conclude important information out of it. The methodology of the system is well described. The validation process took on multiple real-life challenges such as the youtube performance experiment which adds valuable data to the paper. The description of the system is very clear as the author presents the different measures they took in finding false positives which is very important when collecting data. The authors were also not afraid of presenting the limitations of their system as means of improvement.
+
+
+What are the weaknesses of the paper? (2-4 sentences):
+The weaknesses of this paper is that its does not provide a lot of information about full deployment of such system. They mention the limitations of it but did not discuss how easy it would be for companies to implement and how that would be done. They mention that their script is open source but it would be nice to see how the script actually works or what kind of environment is needed to set it up and experiment with it.
+
+
+Provide detailed comments (expand on strengths/weaknesses):
+Overall, this paper tackles an interesting topic which being able to learn from congestion and figure out the causes of it. The TLSP method is not complete as the author mentioned. It has multiple limitations that could not be fully deployed because of the ISP politics. However, with the current system, one is still able to see different congestion occurrences and analyse the reasons behind it. The authors presented all the results in a clear manner. All graphs and tables are well presented, detailed, and described. The only issue with the paper is that it lacks a demo of how this system could be implemented or deployed. However, this is still a very good read since the topic discussed is important. The implications of this work and how it could be used to put pressure on ISPs in order to incentivize good behavior is valuable and gives this paper a big importance.

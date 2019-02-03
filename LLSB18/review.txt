@@ -1,0 +1,22 @@
+﻿Reviewer's Name: 
+Elie Saliba
+
+
+Paper Title: 
+Internet Anycast: Performance, Problems, & Potential
+
+
+Provide a short summary of the paper (2-4 sentences):
+This paper discusses the disadvantages of using anycast in interdomain routing especially with BSP. The authors demonstrate the different causes behind anycast’s poor performance and conclude that two main reasons affect such inefficient routing. The causes they came up with are path inflation and bad decision making when similar routes are presented. The authors presented the different evaluations they did to understand these causes. They also present a solution to fix this issue which is including a geo-location hints to improve routing efficiency. They also demonstrate how easy it is to implement it.
+
+
+What are the strengths of the paper? (2-4 sentences):
+The authors did a great job giving a brief introduction of anycast as well as unicast. Unicast was used as a base comparison to anycast in the different evaluation. The main reasons behind anycast inefficiency are well detailed. The performance of anycast was examined over different scenarios to show how poorly it acts in rout decision making. The authors discuss path inflation and show that anycast has worse path inflation that unicast. Moreover, anycast performs really bad when put different routes are presented. The authors present potential room for improvement and show that it is viable and easy to implement.
+
+
+What are the weaknesses of the paper? (2-4 sentences):
+The weaknesses of this paper is that its does not provide a lot of information about full deployment of such system. They mention the use of geo-location hints but did not discuss how easy it would be for ASes to add that to BGP and how that would be done. They also discuss the possibility of using lon and lat coordinates but how easy is that to implement and how would they be represented in routing information.
+
+
+Provide detailed comments (expand on strengths/weaknesses):
+Overall, this paper tackles an interesting topic which is unicast inefficiency. The author define the two main reasons behind it and evaluate the system under different conditions to prove their hypothesis. They demonstrate the problems that unicast has with path inflation and bad routing decisions. They provide means of improving the system by adding the geo-location hint and show the improvement that would come with it. The only missing part is a demo of how full deployment would work and a discussion to how severe the changes that need to be made to BSP would be. Would the solution need a rewrite of BGP or is this a solution that could be easily added. The topic discussed is interesting. The authors presented all information very clearly which made the paper an easy read.
