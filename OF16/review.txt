@@ -1,0 +1,22 @@
+﻿Reviewer's Name: 
+Elie Saliba
+
+
+Paper Title: 
+Dataplane Specialization for High-performance OpenFlow Software Switching
+
+
+Provide a short summary of the paper (2-4 sentences):
+This paper discusses the problem with OpenFlow’s issues with flow caching that could impose limitation on workloads as well as the malicious attacks that could happen. The authors present ESWITCH as a newl switch architecture that uses on-the-fly template-based code generation to compile any OpenFlow pipeline into efficient machine code, which can then be readily used as fast path. The results show that this solution gives major performance gains over flow-caching-based alternatives, with high raw packet rates, much smaller latency, and robust throughput even on widely varying malicious workloads
+
+
+What are the strengths of the paper? (2-4 sentences):
+The authors did a great job explaining the current issues with the OpenFlow software. They divide these problems into different sections and detail each to show the reasons behind the implementation of this new switch. The design of this new switch is also clearly presented with examples that give the reader an idea of how such hardware would be used with OpenFlow. The evaluation section is good, different scenarios were studied as well as a proof of concept was presented to prove the validity and viability of this product.
+
+
+What are the weaknesses of the paper? (2-4 sentences):
+The hardest part of this paper is not being able to understand most technical parts of it. In my case, and every reader who is not familiar with OpenFlow, it is very hard to understand what this software is trying to achieve. The authors directly delve into detailing the problems with the current switches that support OpenFlow but did not spend much time explaining what OpenFlow is used for and why it is important and relevant. Also the in text code that is supposed to show examples of using OpenFlow is rather confusing than helpful.
+
+
+Provide detailed comments (expand on strengths/weaknesses):
+Overall, this paper tackles an important aspect of the issues regarding the OpenFlow software and its use with current commercial switches. The authors explained why these switches could have potential defective characteristics especially due to flow caching. The suggested solution turns out to have important improvement over the current switches. In most cases, ESWITCH had higher packet rates, smaller latency, and predictable throughput on malicious workloads. The detailed explanations of the design sections is valuable bust the authors should have spent more time explaining the use of OpenFlow and why this software is important. This paper is difficult to read and understand due to the technicality of it.

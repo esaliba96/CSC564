@@ -1,0 +1,24 @@
+﻿Reviewer's Name: 
+Elie Saliba
+
+
+Paper Title: 
+A Measurement Study on Multi-path TCP with Multiple Cellular Carriers on High Speed Rails
+
+
+Provide a short summary of the paper (2-4 sentences):
+This paper presents a large scale measurement of the performance of MPTCP with two cellular carries on high speed rails (HSR). the purpose of the study was to compare the robustness and efficiency of MPTCP to those of TCP. results show that MPTCP is more robust than TCP but is far less efficient than TCP. The authors present the different causes of the low efficiency and present some solutions to fix these issues. 
+
+
+What are the strengths of the paper? (2-4 sentences):
+The authors did a great job detailing the experiments setups and results. The authors developed their own app to take measurements from mobile phones which was very valuable. They authors clearly explained their reasoning behind the different methods as they used mice and elephant flows under different conditions. The author point out the data that was not considered in the analysis in order to make things easier to compare. After explaining how the comparison between TCP and MPTCP was going to work, the authors presented detailed explanations of all their findings. The authors also explained the reasons why MPTCP is less efficient than TCP especially how congestion control, sub-flow establishment, and scheduling decrease MPTCP’s efficiency.
+
+
+What are the weaknesses of the paper? (2-4 sentences):
+The weakness of this paper is that data presented is not very clear. It is well explained and analysed but all graphs and tables are hard to read. This might be caused by the lack of space but authors should have accounted for it while writing the paper. The authors also took out data that correspond to varying geographical terrains which could be interesting to see how bad it would affect flow and whether MPTCP’s robustness is still clear in those cases.
+
+
+Provide detailed comments (expand on strengths/weaknesses):
+Overall, this paper tackles an important performance aspect of MPTCP. The findings are interesting as they show that MPTCP performs better than TCP in the poorer path, but performs worse than TCP in the better path most of the time which indicates that MPTCP can
+show a significant advantage in robustness, but its efficiency is far from satisfactory. The validation process is detailed and very well explained. The different scenarios presented give a lot of value to the data. The authors also focus on the reasons why MPTCP is less efficient than TCP and explain how to improve such flaws. Overall, the paper is interesting and easy to read. The flow of the sections helps the reader understand the author’s thought process and testing methods.
+.
