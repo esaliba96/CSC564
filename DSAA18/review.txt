@@ -1,0 +1,22 @@
+﻿Reviewer's Name: 
+Elie Saliba
+
+
+Paper Title: 
+Andromeda: Performance, Isolation, and Velocity at Scale in Cloud Network Virtualization
+
+
+Provide a short summary of the paper (2-4 sentences):
+This paper talks about the design and deployment evolution of Andromeda, Google Cloud Platform’s network virtualization stack. The authors talks about the improvement in performance achieved over the years with the different versions of andromeda. They discuss the main features of such systems as well as the main contributions that were made in each version to improve the performance of Andromeda. They also present data across the different platforms of this software to prove the continuous and improving development of Andromeda. They also present their experiences with the different versions and what each version tried to solve.
+
+
+What are the strengths of the paper? (2-4 sentences):
+The authors did a great job explaining the different needs of a good, powerful, robust, and scalable network virtualization environment. Therefore, the authors spent some time explaining the requirements they had in mind before building the system. Next they present they design goals in a clear well-detailed manner which reflects the goals that they are trying to achieve. They divide up this explanation between dataplane and control plane which helps the reader understand the difference between them as well as the importance of each in the overall design. The evaluation was also divided between dataplane and control plane, another good aspect of this paper.
+
+
+What are the weaknesses of the paper? (2-4 sentences):
+I think this paper is very well written. I did not find any flagrant weakness that needs to be fixed. The authors explained the topic well without any missing information or sections. 
+
+
+Provide detailed comments (expand on strengths/weaknesses):
+Overall, this paper tackles an important aspect of cloud network virtualization. Andromeda is proven to have major performance improvements over the year as different versions tackled different problems. The author explained their reasoning behind their implementation specifically how different features are necessary for a robust and scalable system. The validation process is detailed and proves the improvement in performance that different version have. Descriptions of the problems solved in different versions were presented to help the readers understand the evolution of this system. There was no problems with this paper in general. Overall, the paper is interesting and easy to read. The flow of the sections helps the reader understand the problem while enjoying themselves by learning about Andromeda.

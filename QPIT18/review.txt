@@ -1,0 +1,22 @@
+﻿Reviewer's Name: 
+Elie Saliba
+
+
+Paper Title: 
+SDN Controller Placement at the Edge: Optimizing Delay and Overheads
+
+
+Provide a short summary of the paper (2-4 sentences):
+This paper discusses the effect of the location of software defined networking controllers by looking at measurements related to traffic delay and overheads. Traffic delay was measured in a simple 4 node smartphone testbench whereas the overhead delay used a more advanced and complicated network. The authors used the findings from these experiments to come up with an optimization for the edge controller placement. A small-scale solution and large-scale solution were presented then a greedy-algorithm was implemented as a better solution for ECP.
+
+
+What are the strengths of the paper? (2-4 sentences):
+The authors did a great job explaining the different problems that face ECP. they present two simulations to show the negative effect that positioning has on delay and overhead. They clearly present and explain the data which gives the reader a good understanding of the problem that the authors are trying to solve. The greedy algorithm as well as the suggested solutions are well explained and verified. The authors provide lemmas with proofs to complete their analysis. They also explain how their approach could improve the ECP solutions.
+
+
+What are the weaknesses of the paper? (2-4 sentences):
+The weaknesses of this paper is that the authors did not simulate the delay problem on a big network as well as the different equations that were presented without data to prove their correctness. The authors did a poor job explaining the different equations. The small-scale solution is therefore not so great. The authors mention that latency in small networks is a good representation on how this problem would scale up but it would have been nice to see data that would support this claim.
+
+
+Provide detailed comments (expand on strengths/weaknesses):
+Overall, this paper tackles an important aspect of edge controller placement. The two solutions provided are proven to have major performance improvements over the current routing random positioning of SDN edge controllers. The author explained their reasoning behind their implementation specifically how issues related to latency and overhead are fixed in their suggested algorithm. The validation process is not very detailed since they only test in a simulation network and was not actually deployed. Another problem with this paper is the small testbench used for latency which might not reflect the real effect of ECP on latency in large networks. Overall, the paper is interesting and easy to read. The flow of the sections helps the reader understand the problem while enjoying themselves by learning about this solution for ECP and the importance of positioning in SDN.
