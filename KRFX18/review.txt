@@ -1,0 +1,22 @@
+﻿Reviewer's Name: 
+Elie Saliba
+
+
+Paper Title: 
+Iron: Isolating Network-based CPU in Container Environments
+
+
+Provide a short summary of the paper (2-4 sentences):
+This paper provides a solution to container networks breaking isolation and using other containers’ resources. Iron (Isolating Resource Overhead from Networking) provides both software and hardware solutions to this problem. The software solutions implements an interrupt algorithm that divides scheduler into two, a global and local scheduler. The hardware solutions implements a packet dropping algorithm that deals directly with NICs. The results show that Iron has valuable improvement in performance compared to container networks isolation issues.
+
+
+What are the strengths of the paper? (2-4 sentences):
+The authors did a great job giving a background of container networks and their isolation issues. They describe how a container can run into resources of other containers and use them. The authors provide a motivation section to explain the current problems with container networks and resource allocation. They also present initial testing data to demonstrate the severity of this issue before moving onto explaining their implementation and testing it.
+
+
+What are the weaknesses of the paper? (2-4 sentences):
+I did not find any weaknesses in this paper. The authors did a great job presenting the topic, discussing their solution implementation, and testing it. The paper is complete, easy to read, and valubale.
+
+
+Provide detailed comments (expand on strengths/weaknesses):
+Overall, this paper tackles an important aspect of network containers. The solution provided is proven to have major performance improvements over the current isolation issues. The author explained their reasoning behind their implementation specifically how their algorithm could help in software isolation as well as their hardware approach. The validation process is detailed and proves the improvement in performance that iron provides. The authors provided detailed pseudocode of their algorithms which really helps in understanding the process it follows. The results were impressive and the comparison between initial container networks isolation and iron’s shows the advantage that iron has. Overall, the paper is interesting and easy to read. The flow of the sections helps the reader understand the problem while enjoying themselves by learning about this interesting solution.

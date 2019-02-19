@@ -1,0 +1,22 @@
+﻿Reviewer's Name: 
+Elie Saliba
+
+
+Paper Title: 
+An Analysis and Empirical Study of Container Networks
+
+
+Provide a short summary of the paper (2-4 sentences):
+This paper provide a study analysis on the performance of container networks on a single host and multiple hosts. The authors also provide studies on various container networks in a virtualized network. The authors provided experimental data that could guide users when using containers based on their needs. The presented results were clear and detailed. Throughput, latency, scalability, and startup cost of various container networks in a realistic cloud environment were tested in this paper.
+
+
+What are the strengths of the paper? (2-4 sentences):
+The authors did a great job explaining the difference between the types of containers. They first listed the different container networks on a single host and explained the characteristics of each. Then they describe the container networks on multiple hosts. The overview of these containers is useful since most readers will not be familiar with the different types. Testing methods were clear and data was presented in an efficient and easy to understand manner. The different aspects of containers were tested which make this study valuable.
+
+
+What are the weaknesses of the paper? (2-4 sentences):
+The weakness of this paper is that the authors described their testing framework in the introduction which is a bit unusual. They noted which settings were used in docker while testing in the introduction as well but they should have waited till the testing setup to explain that. The notion of network containers was not clearly explained. I had to lookup use cases of it to understand when and how it is used. 
+
+
+Provide detailed comments (expand on strengths/weaknesses):
+Overall, this paper presents an important study analysis on network containers. The test cases were predetermined to guide the user what to look for in the paper. The descriptions of the different container network setups on same host or different hosts are valuable to explain how they are used. The summary tables are nice since readers can refer to them easily when reading the rest of the paper. The testing section is detailed and covers many scenarios. The graphs are very clear, they provide readers with detailed data. The only weakness encountered while reading this paper is presenting testing setups in the introduction and comparing it to previous work. This should have been mentioned later as well as the importance of it. Overall, this was an easy read on a very interesting subject.
