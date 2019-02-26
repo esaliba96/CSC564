@@ -1,0 +1,23 @@
+﻿Reviewer's Name: 
+Elie Saliba
+
+
+Paper Title: 
+FBOSS: Building Switch Software at Scale
+
+
+Provide a short summary of the paper (2-4 sentences):
+This paper talks about FBOSS, a switch software that is deployable in data centres at large scale. The process of building these switches used agile methods to allow scalability and resiliency for this general purpose software. The authors talk about building  a custom management system that allows for simpler configuration management, monitoring and operations. Their approach has provided significant benefits that enabled them to quickly and incrementally grow their network
+size and features, while reducing software complexity
+
+
+What are the strengths of the paper? (2-4 sentences):
+The authors did a great job explaining the architecture of FBOSS. They first start by describing the two design principles they follow which are switch-as-a-server and deploy-early-and-iterate. They do a good job explaining the perks of such design. Next they present the hardware architecture of the switches in order to understand how FBOSS will deal with each part. They also discuss the different handlers they use to allows FBOSS to function properly. The architecture of FBOSS is well detailed throughout the paper and managing this software was also described to show readers how easy and effective this system is.
+
+
+What are the weaknesses of the paper? (2-4 sentences):
+The weakness of this paper is that it only shows FBOSS as a solution provided for Facebook. The authors clearly state that such system cannot be used elsewhere since it is specific to the switches that facebook builds themselves. This makes the paper more of an advertisement for a product they came up with. Although they mention that the source code is public, the actual benefit of that is not clear since it is not the case where people can download it and use it.
+
+
+Provide detailed comments (expand on strengths/weaknesses):
+Overall, this paper tackles an important aspect of software for large scale switches. The solution provided is proven to have major performance improvements and usefulness. The author explained their reasoning behind their implementation specifically how different hardware parts are dealt with in FBOSS’ architecture. The design part as well as validation is very well detailed. The different examples provided of configs provide the readers with a sense of how FBOSS works. The only problem with this implementation is the full-deployment since it is specific to facebook and authors did not discuss the possibility of using FBOSS outside of facebook. Therefore, there is no proof to whether FBOSS would work well on different systems and how easy it would be to change it so it works on other systems. Overall, the paper is interesting and easy to read. The flow of the sections helps the reader understand the problem while enjoying themselves by learning about FBOSS.

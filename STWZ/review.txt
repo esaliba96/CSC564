@@ -1,0 +1,22 @@
+﻿Reviewer's Name: 
+Elie Saliba
+
+
+Paper Title: 
+Robotron: Top-down Network Management at Facebook Scale
+
+
+Provide a short summary of the paper (2-4 sentences):
+This paper talks about the creation and evolvement of Robotron which is a a system for managing a massive production network in a top-down fashion used at Facebook. The authors of this papers talk about the issues that current network management suffers from and how robotron is a nice solution to manage network devices and monitor their operational state as well. The authors discuss the needs and use cases of such system then provide data that shows the effectiveness of such system.
+
+
+What are the strengths of the paper? (2-4 sentences):
+The authors did a great job explaining the architecture of Robotron. They first start by discussing the network architecture at Facebook in order to understand how robtron would operate in such system or similar ones. They present challenges faced in managing networks to describe how robroton is useful in these cases. They then talk about FBnet which was the predecessor to robotron that creates a model of the network by looking at devices and the relations between them. The authors also cover the different APIs used, network design, config generation, deployment, and monitoring which makes the overall design clear.
+
+
+What are the weaknesses of the paper? (2-4 sentences):
+The weakness of this paper is that it only shows robotron as a solution provided for Facebook. Sure it does talk about issues with network management overall but that does not mean it could be used in other systems as far as the authors talk about general use. Therefore, it would have been better if robtron was deployed on another network management systems and check how it would perform. The paper is not providing a useful solution that the whole community can benefit from. 
+
+
+Provide detailed comments (expand on strengths/weaknesses):
+Overall, this paper tackles an important aspect of network management systems. The solution provided is proven to have major performance improvements and usefulness. The author explained their reasoning behind their implementation specifically how different use cases are dealt with in robotron’s architecture. The design part as well as validation is very well detailed. The different examples provided of API calls and configs provide the readers with a sense of how robotron works. The only problem with this implementation is the full-deployment since it is specific to facebook and authors did not discuss the possibility of using robotron outside of facebook. Therefore, there is no proof to whether robotron would work well on different systems and how easy it would be to change it so it works on other systems. Overall, the paper is interesting and easy to read. The flow of the sections helps the reader understand the problem while enjoying themselves by learning about robotron.
