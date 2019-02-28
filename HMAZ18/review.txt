@@ -1,0 +1,23 @@
+﻿Reviewer's Name: 
+Elie Saliba
+
+
+Paper Title: 
+B4 and After: Managing Hierarchy, Partitioning, and Asymmetry for Availability and Scale in Google’s Software-Defined WAN
+
+
+Provide a short summary of the paper (2-4 sentences):
+This paper talks about B4, google’s private software-defined WAN, evolution over 5 years. The importance of it is the change from a content-copy service to a carrier-grade availability software. Their solution consists of solving the imbalance introduced by dividing WAN into a hierarchical system, the partitioning required for availability, and the capacity asymmetry
+inherent to the construction and operation of any large-scale network. The solution provided shows improvement in availability from 99% to 99.99%.
+
+
+What are the strengths of the paper? (2-4 sentences):
+The authors did a great job presenting a background of b4 as well as the motivations for the need of such system. They explain how flat topologies scale poorly which is why B4 solves WAN’s large scaling problem by using hierarchy. With hierarchy in a system comes asymmetry which is also discussed in this paper. The authors also talk about their site topology evolution and how B4 is beneficial. The main focus of the design process was the use of TSG, proving its validity, and explaining the algorithm it follows. For validation, which is presenting the evolution of B4, the authors show different sets of data that present the improvement in the different metrics.
+
+
+What are the weaknesses of the paper? (2-4 sentences):
+The weaknesses of this paper is that is does not solve a common problem and does not provide extreme use for the research community. This paper is specific to google’s solution to their own WAN and which is implemented by designing their own WAN topology and the software that goes with it. The other problem is providing all the proofs in the paper which makes it a bit harder to read. Proofs should have been put in an appendix section where readers can chose to refer to them instead of having them within the design section.
+
+
+Provide detailed comments (expand on strengths/weaknesses):
+Overall, this paper could be interesting to read if the purpose is to learn about google’s approach to solving issues that come with large-scaling WANs. B4 is a software-defined WAN that is scalable, reliable, and performs well. The evolution of B4 shows increase in performance. The authors presented their motivations to implement B4 in a clear fashion. The paper is complicated and hard to understand. A lot of the topics require deep knowledge of WAN architecture and characteristics. The proofs in the paper do not simplify it either. The authors also talk about the different design tradeoffs based on the results they got throughout the years. Overall, this paper covers an interesting topic but does not provide the community with a solution to all WANs. In short, good for you GOOGLE.

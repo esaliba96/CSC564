@@ -1,0 +1,22 @@
+﻿Reviewer's Name: 
+Elie Saliba
+
+
+Paper Title: 
+Inside the Social Network’s (Datacenter) Network
+
+
+Provide a short summary of the paper (2-4 sentences):
+This paper is a study on Facebook’s datacenters. The authors present a report ong locality, stability, and predictability of network traffic in Facebook’s datacenters. They also comment on their implications for network architecture, traffic engineering, and switch design. The authors present a detailed section about collected data related to each of the specific characteristics in order to analyse it and present their findings.
+
+
+What are the strengths of the paper? (2-4 sentences):
+The authors did a good job explaining the architecture of facebook’s datacenters in order to understand how the different services are provided as well as useful. Describing the topology helps the reader know what to expect. They also present all their data and findings in a clear detailed fashion. Graphs and diagram help the user understand the important services that datacenters have. They conclude by explaining how the different aspects of these datacenters can benefit from new switching hardware and software.
+
+
+What are the weaknesses of the paper? (2-4 sentences):
+The weakness of this paper is that it only presents data about services specific to fabeook’s datacenters. Therefore, there is no problem that this paper is trying to solve which hinders the research purpose. The authors did a good job explaining their data and analysing it but that does not mean that it is useful for the research community. Moreover, there was no clear purpose of this research since authors were just presenting multiple data that test different aspect but there was no specific reason to do that.
+
+
+Provide detailed comments (expand on strengths/weaknesses):
+Overall, this paper presents data on facebook’s datacenters’ services. It is more of a report than an actual research paper. There was no problem that the authors are trying to solve. Rather, they are just presenting the different characteristics and testing them. The flow of the paper is fine and the presented data is clear. The authors divided their sections in an appropriate way to make it easy for readers to understand what is being presented. However, the only purpose was to conclude that different switching mechanisms could help their testing benchmarks and data. This does not provide an important outcome for the research community.
