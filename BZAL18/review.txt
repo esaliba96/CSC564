@@ -1,0 +1,21 @@
+﻿Reviewer's Name: 
+Elie Saliba
+
+
+Paper Title: 
+In-Body Backscatter Communication and Localization
+
+
+Provide a short summary of the paper (2-4 sentences):
+This paper presents ReMix, a new backscatter design that is particularly customized for deep tissue devices. This device addresses to main problems faced in deep tissues devices which are interference from the body surface and the fact that signals travel following crooked path in the human body. The solution presented uses circuit non-linearities to shift the frequency of the backscatter signal to avoid interference from surface reflections. Second, it presents a time-of-flight localization algorithm that accounts for in-body signal refraction. Experiments with animal tissues and human phantoms demonstrate ReMix’s effectiveness.
+ 
+What are the strengths of the paper? (2-4 sentences):
+The authors did a great job explaining the needs and importance of implants as well as being able to localize them them and communicate with them. They give a detailed explanation of the two main problems they are trying to fix in this paper. Next, they present their system setup followed by very detailed sections talking about backscatter communication and localization. The localization algorithm is also presented in a detailed manner while explaining the formulas they used to make it easier on the reader to understand what is presented. The implementation and evaluation section are also valuable.
+
+
+What are the weaknesses of the paper? (2-4 sentences):
+The weakness of this paper is that it does not provide extensive testing. The authors mention in their future work section that the data provided was their best to emulate real animal/human data. The system is theoretically capable of providing good results in communicating with and locating devices in the human body but it would be nice to see actual results that would support this claim. 
+
+
+Provide detailed comments (expand on strengths/weaknesses):
+Overall, this paper discusses a very interesting topic in the biomedical field. ReMix, a new basckscatter design, is presented as a solution to signal interference from body surface and crooked paths. This device uses nonlinear circuits as well as time-of-flight localization algorithm to solve the problems stated. The design and implementation of this device is very clear in this paper. The authors did a great job explaining their approach and detailing both solutions separately. The evaluation section provides great insight on the performance of this device but unfortunately lacks real data which does not prove the performance of such system in real-life situations. The paper is very well written and organized. Even though this paper does not relate to networking but it was still a fun useful read.

@@ -1,0 +1,23 @@
+﻿Reviewer's Name: 
+Elie Saliba
+
+
+Paper Title: 
+Temporal Reachability in Vehicular Networks
+
+
+Provide a short summary of the paper (2-4 sentences):
+This paper presents different new properties of the topology of vehicular networks which could be useful when implementing a protocol to improve vehicular network communications performance. The contributions of this paper were a methodology to infer complete
+trajectories of individual vehicles, efficient algorithms for the calculation of the vehicular network connectivity, promising performance of store-carry-and-forward for multi-hop data transfers via temporal paths, and making the datasets used public for future reference. Therefore the work of the authors is useful and original.
+
+
+What are the strengths of the paper? (2-4 sentences):
+The authors did a good job in explaining the design of their different algorithms used in their research. They present clear pseudocode as well as provide detailed definitions of the concepts needed to understand their models. The evaluation uses real GPS trajectories which is valuable because it gives their results bigger importance since it deals with real life problems. The graphs presented are clear and are easy to understand. Results are promising for future work since they provide a good ground for new protocols and improvement in performance. 
+
+
+What are the weaknesses of the paper? (2-4 sentences):
+The weaknesses of this paper is that it is not well organized at all. The paper is all over the place. There is no good differentiation between design, implementation, and evaluation. In section II, vehicular trajectory calibration, the authors present the pseudocode for their algorithm and directly evaluate it and compare it to other “state-of-the-art” proposed solution in a paper without even mentioning the name of it or what it does. Same in section III, the authors did not separate design from implementation and analysis that well. In addition to all the in-text equations which make things worse as readers cannot clearly understand the equations.
+
+
+Provide detailed comments (expand on strengths/weaknesses):
+Overall this paper tackles a very interesting subject which is vehicular networks. The authors aim to provide useful algorithms that could be used in future work to improve vehicular networks performance as well as come up with a good protocol for communication in such networks. Even though the research is valuable, the presentation of this paper makes is very hard to understand the topic as well as the different contributions of this work. Moreover, the authors waited till the last sentence of the conclusion to mention that their contributions are in fact an example of a pessimistic scenario. I think this paper could have been written in a better, more organized manner to reflect the importance and originality of this work especially that it tackles a very interesting topic.
